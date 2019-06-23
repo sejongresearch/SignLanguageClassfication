@@ -42,6 +42,8 @@ This is term project of Sejong 2019 AI<br>
   
   - Loss function은 CrossEntropy 와 MSELoss를 비교하여 실험한 결과 더 성능이 잘 나온 CrossEntropy를 사용했습니다.
   
+  - Learning rate 는 1e-3으로 initialize 하였고 10 epoch 마다 10분의 1로 줄어들 수 있도록 LR scheduler를 사용했습니다.
+  
   
 - # Performance
   

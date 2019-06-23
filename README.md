@@ -16,6 +16,27 @@ This is term project of Sejong 2019 AI<br>
 
   - Dataset은 20개의 class, class 당 40개의 video, video당 110 ~ 200 frames (약 3 ~ 7초, 1초당 30frame)
   
+    0.What do you want
+    1.i love you
+    2.your are welcome
+    3.nice to meet you
+    4.time is up
+    5.i don't understand
+    6.see you later
+    7.im sorry
+    8.no thank you
+    9.how old ar you
+    10.are you hurt
+    11.how are you
+    12.im fine
+    13.what happened
+    14.i have not eaten yet
+    15.do you need help
+    16.how much does it cost
+    17.hello
+    18.i miss you
+    19.what's your name
+  
   - Dataset은 임의로 train 600개 (75%), test 200개 (25%) 로 나눴습니다.
   
   - 16 frame씩 앞뒤로 8 frame씩 overlap 시킨 것을 한 clip으로 하고 한 video 를 여러 clip으로 나누어 clip 을 하나씩 model에 넣었습니다.
@@ -75,4 +96,7 @@ This is term project of Sejong 2019 AI<br>
     torch version 1.0.1<br>
     torchvision version 0.2.2<br>
   
+  - dataset 경로
+  
+    
   

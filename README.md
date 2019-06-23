@@ -14,7 +14,7 @@ This is term project of Sejong 2019 AI<br>
 
 - # Dataset
 
-  - Dataset은 20개의 class, class 당 40개의 video, video당 150 ~ 200 frames (약 5 ~ 7초)
+  - Dataset은 20개의 class, class 당 40개의 video, video당 110 ~ 200 frames (약 3 ~ 7초, 1초당 30frame)
   
   - Dataset은 임의로 train 600개 (75%), test 200개 (25%) 로 나눴습니다.
   
@@ -58,7 +58,11 @@ This is term project of Sejong 2019 AI<br>
   ![image](https://user-images.githubusercontent.com/46413594/59975099-2317de80-95ef-11e9-90dd-f530d8080f62.png)
   _가로축 = percent , 세로축 = epoch_
   
-  Local 정보를 포함한 2번이 아닌 1번이 가장 좋은 성능을 보였는데 이는 Local정보를 영상에서 손이 움직이는 위치가 아닌 단지 hand detecting을 하여 손의 모양의 변화만 뽑아내어 model에 넣었기 때문에 1번보다 성능이 덜 나왔습니다.
+  Local 정보를 포함한 2번이 아닌 1번이 가장 좋은 성능을 보였는데 이는 Local정보를 video에서 손이 움직이는 위치가 아닌 단지 hand detecting을 하여 손의 모양의 변화만 뽑아내어 model에 넣었기 때문에 1번보다 성능이 덜 나왔습니다.
+  
+  아래사진은 frame 수에 따른 분류 성공/실패 그래프입니다.
+  ![image](https://user-images.githubusercontent.com/46413594/59975742-60339f00-95f6-11e9-8d01-58be2bf21eca.png)
+  _세로축에서 성공했을 땐 1, 실패 했을 땐 0, 가로축은 frame의 수 입니다._
   
   
 - # Code

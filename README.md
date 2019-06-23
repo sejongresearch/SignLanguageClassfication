@@ -9,7 +9,7 @@ This is term project of Sejong 2019 AI<br>
 ![image](https://user-images.githubusercontent.com/46413594/59977686-65511800-960f-11e9-98c2-47c73d41a460.png)
 
 - # Our submit
-  - [인공지능_final_레알찐막.pptx](https://github.com/Jo-won/Me-Mo/files/3317990/_final_.pptx)
+  - [인공지능_ppt](https://github.com/Jo-won/Me-Mo/files/3317990/_final_.pptx)
   - 
   
 

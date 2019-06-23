@@ -29,6 +29,19 @@ This is term project of Sejong 2019 AI<br>
   
   - C3D model을 사용한 이유 : <br>분류하려는 것이 image가 아닌 video인데 conv2d로만 이루어진 model에서 feature를 뽑아내게 되면 spatial한 정보는 얻을 수 있지만 temporal한 정보는 얻을 우 없어서 temporal한 정보 또한 얻을 수 있는 C3D를 선택했습니다.
   
-  - LSTM model을 사용한 이유 : <br> C3D만을 사용했을 시 영상에서 수화를 하는 중간에만 잘 맞추고 대부분의 부분에서는 잘 맞추지 못하느 경향이 있습니다. 즉, Short-term에 대한 영상정보는 잘 인식하는 부분도 있지만 Long-term 에 대해서는 정보가 전달이 되지 못하는 것 같아서 LSTM을 쓰게 되었습니다.
+  - LSTM model을 사용한 이유 : <br> C3D만을 사용했을 시 영상에서 수화를 하는 중간에만 잘 맞추고 대부분의 부분에서는 잘 맞추지 못하느 경향이 있습니다. 즉, Short-term에 대한 영상정보는 잘 인식하는 부분도 있지만 Long-term 에 대해서는 정보가 전달이 되지 못하는 것 같아서 LSTM을 쓰게 되었습니다.<br><br><br>
+  아래 video가 C3D만을 사용했을 때이고 오른쪽 위 부분이 해당 class라고 예측하고 정확도를 나타내는 부분입니다.
+  그리고 이 video의 class는 "Do you need help?" 입니다.
+  ![gifff](https://user-images.githubusercontent.com/46413594/59974974-b223f700-95ed-11e9-97c2-f3bc26956007.gif)
   
   - C3D 부분의 parameter들은 C3D저자가 제공해준 pretrained parameter에 저희 Dataset으로 추가적인 pretrain을 한 parameter를 사용했습니다.
+  
+  - C3D에서 나온 4096 dimension의 feature를 LSTM에 넣고 256 dimension으로 줄인 후 한개의 FC Layer를 거쳐 20개의 dimension, 즉 class의 갯수만큼의 dimension으로 줄였습니다.
+  
+  - LSTM과 FC layer를 거쳐 지나온 feature에 대한 Activation function으로 Softmax와 Logsoftmax를 비교하여 실험해 성능이 더 잘나온 Logsoftmax를 사용하였습니다.
+  
+  - Loss function은 CrossEntropy 와 MSELoss를 비교하여 실험한 결과 더 성능이 잘 나온 CrossEntropy를 사용했습니다.
+  
+  
+  
+  

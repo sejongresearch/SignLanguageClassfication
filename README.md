@@ -16,26 +16,26 @@ This is term project of Sejong 2019 AI<br>
 
   - Dataset은 20개의 class, class 당 40개의 video, video당 110 ~ 200 frames (약 3 ~ 7초, 1초당 30frame)
   
-    0.What do you want
-    1.i love you
-    2.your are welcome
-    3.nice to meet you
-    4.time is up
-    5.i don't understand
-    6.see you later
-    7.im sorry
-    8.no thank you
-    9.how old ar you
-    10.are you hurt
-    11.how are you
-    12.im fine
-    13.what happened
-    14.i have not eaten yet
-    15.do you need help
-    16.how much does it cost
-    17.hello
-    18.i miss you
-    19.what's your name
+    0.What do you want<br>
+    1.i love you<br>
+    2.your are welcome<br>
+    3.nice to meet you<br>
+    4.time is up<br>
+    5.i don't understand<br>
+    6.see you later<br>
+    7.im sorry<br>
+    8.no thank you<br>
+    9.how old ar you<br>
+    10.are you hurt<br>
+    11.how are you<br>
+    12.im fine<br>
+    13.what happened<br>
+    14.i have not eaten yet<br>
+    15.do you need help<br>
+    16.how much does it cost<br>
+    17.hello<br>
+    18.i miss you<br>
+    19.what's your name<br>
   
   - Dataset은 임의로 train 600개 (75%), test 200개 (25%) 로 나눴습니다.
   

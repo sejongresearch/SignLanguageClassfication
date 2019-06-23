@@ -63,9 +63,9 @@ This is term project of Sejong 2019 AI<br>
 
   - version
     
-    python 3.7.1
-    cuda version 10.0
-    torch version 1.0.1
-    torchvision version 0.2.2
+    python 3.7.1<br>
+    cuda version 10.0<br>
+    torch version 1.0.1<br>
+    torchvision version 0.2.2<br>
   
   

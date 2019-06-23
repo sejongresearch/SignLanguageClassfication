@@ -43,5 +43,17 @@ This is term project of Sejong 2019 AI<br>
   - Loss function은 CrossEntropy 와 MSELoss를 비교하여 실험한 결과 더 성능이 잘 나온 CrossEntropy를 사용했습니다.
   
   
+- # Performance
   
+  1. Only_global + Logsoftmax + CrossEntropy : 손에 대한 Local dataset을 추가하지 않고 LSTM FC layer 후에 activation function을 Logsoftmax로 쓰고 Loss function을 CrossEntropy로 쓴 그래프 입니다.
+  
+  2. Global_local + Logsoftmax + CrossEntropy : 1번에서 Local dataset만 추가한 그래프 입니다.
+  
+  3. Only_global + Logsoftmax + MSE : 1번에서 loss function을 CrossEntropy 대신 MSE를 사용한 그래프 입니다.
+  
+  4. Only_global + Softmax + CrossEntropy : 1번에 Logsoftmax대신 Softmax를 사용한 그래프 입니다.
+  
+  ![image](https://user-images.githubusercontent.com/46413594/59975099-2317de80-95ef-11e9-90dd-f530d8080f62.png)
+  
+  Local 정보를 포함한 2번이 아닌 1번이 가장 좋은 성능을 보였는데 이는 Local정보를 영상에서 손이 움직이는 위치가 아닌 단지 hand detecting을 하여 손의 모양의 변화만 뽑아내어 model에 넣었기 때문에 1번보다 성능이 덜 나온 것 같습니다.
   

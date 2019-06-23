@@ -96,7 +96,16 @@ This is term project of Sejong 2019 AI<br>
     torch version 1.0.1<br>
     torchvision version 0.2.2<br>
   
-  - dataset 경로
-  
+  - Practice
+    
+    main.py <- train과 test를 하는 code
+    model.py <- model
+    make_txt.py <- 16frames 8overlap 된 1clip을 만들기 위해 참고
+    trainindex.txt  testindex.txt <- main.py안에서 임의로 나눈 train과 test에 대해 제공 (1~800)
+    txtpath.txt csvpath.txt <- video의 실제 경로
+    utils.py <- pytorch의 utils function
+    dcdatasets.py <-local 경로에서 저장된 video를 불러와 clip으로 만들어주는 코드
+    
+    
     
   

@@ -10,7 +10,7 @@ This is term project of Sejong 2019 AI<br>
 
 - # Our submit
   - [인공지능_ppt](https://github.com/Jo-won/Me-Mo/files/3317990/_final_.pptx)
-  - 
+  - [인공준희.pdf](https://github.com/Jo-won/Me-Mo/files/3317994/default.pdf)
   
 
 - # Summary

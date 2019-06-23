@@ -6,6 +6,9 @@ This is term project of Sejong 2019 AI<br>
 [by Won.Jo](https://github.com/Jo-won) /
 [by DaeChan.Han](https://github.com/big-chan)
 
+![image](https://user-images.githubusercontent.com/46413594/59977686-65511800-960f-11e9-98c2-47c73d41a460.png)
+
+  
 
 - # Summary
 

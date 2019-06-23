@@ -54,6 +54,7 @@ This is term project of Sejong 2019 AI<br>
   4. Only_global + Softmax + CrossEntropy : 1번에 Logsoftmax대신 Softmax를 사용한 그래프 입니다.
   
   ![image](https://user-images.githubusercontent.com/46413594/59975099-2317de80-95ef-11e9-90dd-f530d8080f62.png)
+  가로축 = percent , 세로축 = epoch
   
   Local 정보를 포함한 2번이 아닌 1번이 가장 좋은 성능을 보였는데 이는 Local정보를 영상에서 손이 움직이는 위치가 아닌 단지 hand detecting을 하여 손의 모양의 변화만 뽑아내어 model에 넣었기 때문에 1번보다 성능이 덜 나온 것 같습니다.
   

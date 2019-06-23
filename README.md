@@ -32,7 +32,7 @@ This is term project of Sejong 2019 AI<br>
   - LSTM model을 사용한 이유 : <br> C3D만을 사용했을 시 영상에서 수화를 하는 중간에만 잘 맞추고 대부분의 부분에서는 잘 맞추지 못하느 경향이 있습니다. 즉, Short-term에 대한 영상정보는 잘 인식하는 부분도 있지만 Long-term 에 대해서는 정보가 전달이 되지 못하는 것 같아서 LSTM을 쓰게 되었습니다.<br><br><br>
   아래 video가 C3D만을 사용했을 때이고 오른쪽 위 부분이 해당 class라고 예측하고 정확도를 나타내는 부분입니다.
   그리고 이 video의 class는 "Do you need help?" 입니다.
- ![halal](https://user-images.githubusercontent.com/46413594/59976823-a5f76400-9604-11e9-9d25-89655f7c515a.gif)
+![gitgif](https://user-images.githubusercontent.com/46413594/59976843-db03b680-9604-11e9-9962-d1646ff92895.gif)
 
   
   - C3D 부분의 parameter들은 C3D저자가 제공해준 pretrained parameter에 저희 Dataset으로 추가적인 pretrain을 한 parameter를 사용했습니다.

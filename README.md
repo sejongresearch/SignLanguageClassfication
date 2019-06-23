@@ -1,2 +1,34 @@
-# C3D_LSTM_SignLanguage_Pytorch
-This is term project of Sejong 2019 AI
+# *C3D_LSTM_SignLanguage_Pytorch*
+This is term project of Sejong 2019 AI<br> 
+[by JunHee.Park](https://github.com/joooooonie) / 
+[by KyuWon.Lee](https://github.com/KYUUUW) /
+[by MiYeon.Lee](https://github.com/iammiori) /
+[by Won.Jo](https://github.com/Jo-won) /
+[by DaeChan.Han](https://github.com/big-chan)
+
+
+- # Summary
+
+![image](https://user-images.githubusercontent.com/46413594/59973642-6a956f00-95dd-11e9-80a6-cb659f663980.png)
+
+
+- # Dataset
+
+  - Dataset은 20개의 class, class 당 40개의 video, video당 150 ~ 200 frames (약 5 ~ 7초)
+  
+  - Dataset은 임의로 train 600개 (75%), test 200개 (25%) 로 나눴습니다.
+  
+  - 16 frame씩 앞뒤로 8 frame씩 overlap 시킨 것을 한 clip으로 하고 한 video 를 여러 clip으로 나누어 clip 을 하나씩 model에 넣었습니다.
+  
+  - 분류의 성능을 높이기 위한 양 손에 대한 Local정보를 Openpose를 이용해 뽑아냈습니다. 그리고 이를 Local영역을 추가했을 때와 안했을 때를 비교하여 실험 하였습니다.
+  
+  
+- # Model
+  
+  - Model은 C3D(conv3d)와 LSTM으로 이루어진 model을 사용했습니다.
+  
+  - C3D model을 사용한 이유 : <br>분류하려는 것이 image가 아닌 video인데 conv2d로만 이루어진 model에서 feature를 뽑아내게 되면 spatial한 정보는 얻을 수 있지만 temporal한 정보는 얻을 우 없어서 temporal한 정보 또한 얻을 수 있는 C3D를 선택했습니다.
+  
+  - LSTM model을 사용한 이유 : <br> C3D만을 사용했을 시 영상에서 수화를 하는 중간에만 잘 맞추고 대부분의 부분에서는 잘 맞추지 못하느 경향이 있습니다. 즉, Short-term에 대한 영상정보는 잘 인식하는 부분도 있지만 Long-term 에 대해서는 정보가 전달이 되지 못하는 것 같아서 LSTM을 쓰게 되었습니다.
+  
+  - C3D 부분의 parameter들은 C3D저자가 제공해준 pretrained parameter에 저희 Dataset으로 추가적인 pretrain을 한 parameter를 사용했습니다.

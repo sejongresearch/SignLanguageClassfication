@@ -56,5 +56,16 @@ This is term project of Sejong 2019 AI<br>
   ![image](https://user-images.githubusercontent.com/46413594/59975099-2317de80-95ef-11e9-90dd-f530d8080f62.png)
   _가로축 = percent , 세로축 = epoch_
   
-  Local 정보를 포함한 2번이 아닌 1번이 가장 좋은 성능을 보였는데 이는 Local정보를 영상에서 손이 움직이는 위치가 아닌 단지 hand detecting을 하여 손의 모양의 변화만 뽑아내어 model에 넣었기 때문에 1번보다 성능이 덜 나온 것 같습니다.
+  Local 정보를 포함한 2번이 아닌 1번이 가장 좋은 성능을 보였는데 이는 Local정보를 영상에서 손이 움직이는 위치가 아닌 단지 hand detecting을 하여 손의 모양의 변화만 뽑아내어 model에 넣었기 때문에 1번보다 성능이 덜 나왔습니다.
+  
+  
+- # Code
+
+  - version
+    
+    python 3.7.1
+    cuda version 10.0
+    torch version 1.0.1
+    torchvision version 0.2.2
+  
   

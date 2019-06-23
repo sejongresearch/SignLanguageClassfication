@@ -98,13 +98,13 @@ This is term project of Sejong 2019 AI<br>
   
   - Practice
     
-    main.py <- train과 test를 하는 code
-    model.py <- model
-    make_txt.py <- 16frames 8overlap 된 1clip을 만들기 위해 참고
-    trainindex.txt  testindex.txt <- main.py안에서 임의로 나눈 train과 test에 대해 제공 (1~800)
-    txtpath.txt csvpath.txt <- video의 실제 경로
-    utils.py <- pytorch의 utils function
-    dcdatasets.py <-local 경로에서 저장된 video를 불러와 clip으로 만들어주는 코드
+    main.py <- train과 test를 하는 code<br>
+    model.py <- model<br>
+    make_txt.py <- 16frames 8overlap 된 1clip을 만들기 위해 참고<br>
+    trainindex.txt  testindex.txt <- main.py안에서 임의로 나눈 train과 test에 대해 제공 (1~800)<br>
+    txtpath.txt csvpath.txt <- video의 실제 경로<br>
+    utils.py <- pytorch의 utils function<br>
+    dcdatasets.py <-local 경로에서 저장된 video를 불러와 clip으로 만들어주는 코드<br>
     
     
     

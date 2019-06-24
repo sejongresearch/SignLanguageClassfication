@@ -10,6 +10,7 @@ This is term project of Sejong 2019 AI<br>
 
 - # Our submit
   - [인공준희.ppt](https://github.com/Jo-won/Me-Mo/files/3319093/_final_.2.pptx)
+    [ppt를 받기전 다운받아주세요 - ](https://github.com/Jo-won/Me-Mo/files/3319109/Nanumsquare_ac_TTF.zip)
   - [인공준희.pdf](https://github.com/Jo-won/Me-Mo/files/3317994/default.pdf)
   
 

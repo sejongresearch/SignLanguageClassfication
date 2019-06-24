@@ -10,7 +10,8 @@ This is term project of Sejong 2019 AI<br>
 
 - # Our submit
   - [인공준희.ppt](https://github.com/iammiori/AI_19_SS_CLASS/files/3319153/ai_termproject_final.pptx)<br>
-  - [인공준희.pdf](https://github.com/Jo-won/Me-Mo/files/3319233/ASLC.American.Sign.Language.Classification_.pdf)
+  - [인공준희.pdf](https://github.com/sejongresearch/SignLanguageClassfication/files/3319686/ASLC.American.Sign.Language.Classification_Team.pdf)
+
   
 
 - # Summary

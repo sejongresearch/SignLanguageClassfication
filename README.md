@@ -6,7 +6,7 @@ This is term project of Sejong 2019 AI<br>
 [by Won.Jo](https://github.com/Jo-won) /
 [by DaeChan.Han](https://github.com/big-chan)
 
-![image](https://user-images.githubusercontent.com/46413594/59977686-65511800-960f-11e9-98c2-47c73d41a460.png)
+![인공지능_final_최종수정2_팀소개](https://user-images.githubusercontent.com/46439995/59988714-18089100-9677-11e9-8681-1e903eea0955.jpg)
 
 - # Our submit
   - [인공지능_ppt](https://github.com/Jo-won/A.I-Term-project/files/3319024/_final_.2.pptx)

@@ -9,7 +9,7 @@ This is term project of Sejong 2019 AI<br>
 ![인공지능_final_최종수정2_팀소개](https://user-images.githubusercontent.com/46439995/59988714-18089100-9677-11e9-8681-1e903eea0955.jpg)
 
 - # Our submit
-  - [인공준희.ppt](https://github.com/iammiori/AI_19_SS_CLASS/files/3319125/_final_._.pptx)<br>
+  - [인공준희.ppt](https://github.com/Jo-won/Me-Mo/files/3319138/_final_._.dddddd.pptx)<br>
     [ppt를 받기전 글씨체 다운](https://github.com/Jo-won/Me-Mo/files/3319109/Nanumsquare_ac_TTF.zip)
   - [인공준희.pdf](https://github.com/Jo-won/Me-Mo/files/3317994/default.pdf)
   

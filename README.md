@@ -1,6 +1,6 @@
 # *C3D_LSTM_SignLanguage_Pytorch*
 This is term project of Sejong 2019 AI<br> 
-[by JunHee.Park](https://github.com/joooooonie) / 
+[by JoonHui.Park](https://github.com/joooooonie) / 
 [by KyuWon.Lee](https://github.com/KYUUUW) /
 [by MiYeon.Lee](https://github.com/iammiori) /
 [by Won.Jo](https://github.com/Jo-won) /
